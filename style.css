@@ -1,3 +1,6 @@
+
+/*didn't used classes because for some reason they weren't working*/
+
 * {
     margin: 0;
     padding: 0;
@@ -99,8 +102,12 @@ form p span {
 
 
 @media screen and (min-width: 700px) {
+    body {
+        background-image: url(images/bg-intro-desktop.png);
+    }
     main {
         flex-direction: row;
+        max-width: 80%;
     }
     .left {
         width: 50%;
