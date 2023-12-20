@@ -97,6 +97,7 @@ form p {
 
 form p span {
     color: var(--Red);
+    font-size: 1.6rem;
     font-weight: 800;
 }
 
