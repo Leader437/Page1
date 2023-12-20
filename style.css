@@ -98,14 +98,26 @@ form p span {
 }
 
 
-@media screen and (max-width: 850px) {
+@media screen and (min-width: 700px) {
+    main {
+        flex-direction: row;
+    }
+    .left {
+        width: 50%;
+    }
+    .left h1 {
+        text-align: left;
+    }
+    
+    .left p {
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 569px) {
 
 }
 
-@media screen and (max-width: 569px) {
-
-}
-
-@media screen and (max-width: 410px) {
+@media screen and (min-width: 410px) {
 
 }
