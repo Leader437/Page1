@@ -101,7 +101,7 @@ form p span {
 }
 
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 650px) {
     body {
         background-image: url(images/bg-intro-desktop.png);
     }
@@ -118,6 +118,9 @@ form p span {
     
     .left p {
         text-align: left;
+    }
+    form {
+        gap: 2rem;
     }
 }
 
